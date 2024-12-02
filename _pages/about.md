@@ -13,7 +13,7 @@ profile:
     <p>1900 Augusto Lippel Street</p>
     <p>Sorocaba, São Paulo, Brazil 18048-130</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
