@@ -6,8 +6,8 @@ subtitle: <a href='https://www.ufscar.br/'>Federal University of São Carlos (UF
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: me.png
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>+55 17 988139323</p>
     <p>1900 Augusto Lippel Street</p>
