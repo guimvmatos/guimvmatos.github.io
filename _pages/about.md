@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.ufscar.br/'>Federal University of São Carlos (UFSCar)</a>.
 
 profile:
   align: right
