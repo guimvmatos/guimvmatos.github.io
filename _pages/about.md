@@ -6,7 +6,7 @@ subtitle: <a href='https://www.ufscar.br/'>Federal University of São Carlos (UF
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_color.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>+55 17 988139323</p>
@@ -23,7 +23,3 @@ I am a Ph.D. student in Computer Science at the Federal University of São Carlo
 I am a researcher in the "SMARTNESS 2030: SMART Networks and Services for 2030" project in collaboration with Ericsson. Before pursuing my Ph.D., I gained significant professional experience as an infrastructure and information security analyst and later as an IT manager, working on complex systems and their security.
 
 If you share interests in these areas or are looking to collaborate, feel free to reach out!
-
-this is a test
-
-Yeah baby!
