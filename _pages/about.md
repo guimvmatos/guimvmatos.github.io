@@ -23,3 +23,5 @@ I am a Ph.D. student in Computer Science at the Federal University of São Carlo
 I am a researcher in the "SMARTNESS 2030: SMART Networks and Services for 2030" project in collaboration with Ericsson. Before pursuing my Ph.D., I gained significant professional experience as an infrastructure and information security analyst and later as an IT manager, working on complex systems and their security.
 
 If you share interests in these areas or are looking to collaborate, feel free to reach out!
+
+Yeah baby!
