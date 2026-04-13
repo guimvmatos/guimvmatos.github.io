@@ -1,28 +1,54 @@
 ---
 ---
 
-@proceedings{10.1145/3694812,
-title = {CoNEXT-SW '24: Proceedings of the CoNEXT on Student Workshop 2024},
+@INPROCEEDINGS{11073700,
+  author={Vieira de Matos, Guilherme Mendes and Dias da Silva, Washington Rodrigo and Verdi, Fábio Luciano and Williams, Andrew},
+  booktitle={NOMS 2025-2025 IEEE Network Operations and Management Symposium}, 
+  title={DECOMPOSER: Functional decomposition and distributed execution of monolithic applications to heterogeneous resources}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-10},
+  selected={true},
+  keywords={YOLO;Measurement;Energy consumption;Data centers;5G mobile communication;Static analysis;Dynamic scheduling;Hardware;Energy efficiency;Resource management;Edge computing;heterogeneous environment;application decomposition;disaggregation},
+  doi={10.1109/NOMS57970.2025.11073700}}
+
+
+@inproceedings{10.1145/3694812.3699930,
+author = {Matos, Guilherme Mendes Vieira de and Verdi, F\'{a}bio Luciano and Silva, Washington R. D. and Williams, Andrew},
+title = {DECOMPOSER: Functional Decomposition of Monolithic Applications to Heterogeneous Resources in Disaggregated Environments},
 year = {2024},
 isbn = {9798400712555},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-abstract = {It is our great pleasure to welcome you to the 2024 ACM CoNEXT Student Workshop. This year's workshop continues its tradition of being an exciting forum for the presentation of early-stage student research results in the field of networking and distributed systems. The mission of the workshop is to share novel ideas and expose students to a conference environment, where they can gain valuable feedback on their research. The CoNEXT Student Workshop gives student researchers a unique opportunity to share their perspectives with both junior and senior members of the community.The call for papers this year attracted submissions from Asia, North America, Europe, and South America. In total, 15 submissions were received, of which 14 were selected for publication after a rigorous review process. Putting together the ACM CoNEXT Student Workshop was a team effort. We first thank the authors for providing the content of the program. We are also grateful to the 29 program committee members, who worked diligently in reviewing papers and providing feedback for student authors.},
-selected={true},
-abbr={CoNEXT 2024},
-location = {Los Angeles, CA, USA}
+url = {https://doi.org/10.1145/3694812.3699930},
+doi = {10.1145/3694812.3699930},
+abstract = {This paper analyzes the performance of disaggregating monolithic applications across heterogeneous hardware. A monolithic program with convolution functions was tested on AMD, Intel servers, and a BlueField-2 DPU (ARM). After disaggregation into independent processes, it was run on the same server and over a local network. Results showed that disaggregation maintained similar performance to the monolithic version, with minimal impact despite network latency. We also observed improved cache utilization, particularly a reduction in L1 cache misses and L2 accesses. Disaggregation shows promise in optimizing memory usage. Future work will focus on refining memory analysis and using GPUs and FPGAs to improve computational efficiency.},
+booktitle = {Proceedings of the CoNEXT on Student Workshop 2024},
+pages = {19–20},
+numpages = {2},
+keywords = {application decomposition, disaggregation, edge computing, heterogeneous environment},
+location = {Los Angeles, CA, USA},
+series = {CoNEXT-SW '24}
 }
 
-@proceedings{10.1145/3694812,
-title = {CoNEXT-SW '24: Proceedings of the CoNEXT on Student Workshop 2024},
+@inproceedings{10.1145/3694812.3699933,
+author = {Silva, Washington R. D. and Verdi, F\'{a}bio L. and Matos, Guilherme M. V. and Williams, Andrew},
+title = {Delivering Augmented Reality to the Edge: An Approach Toward Object Recognition through the In-Network Computing Paradigm},
 year = {2024},
 isbn = {9798400712555},
 publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
-abstract = {It is our great pleasure to welcome you to the 2024 ACM CoNEXT Student Workshop. This year's workshop continues its tradition of being an exciting forum for the presentation of early-stage student research results in the field of networking and distributed systems. The mission of the workshop is to share novel ideas and expose students to a conference environment, where they can gain valuable feedback on their research. The CoNEXT Student Workshop gives student researchers a unique opportunity to share their perspectives with both junior and senior members of the community.The call for papers this year attracted submissions from Asia, North America, Europe, and South America. In total, 15 submissions were received, of which 14 were selected for publication after a rigorous review process. Putting together the ACM CoNEXT Student Workshop was a team effort. We first thank the authors for providing the content of the program. We are also grateful to the 29 program committee members, who worked diligently in reviewing papers and providing feedback for student authors.},
+url = {https://doi.org/10.1145/3694812.3699933},
+doi = {10.1145/3694812.3699933},
+abstract = {Recent advancements in 5G technology have enabled significant breakthroughs in applications requiring high data throughput and low latency, such as Mobile Augmented Reality (MAR). Nevertheless, mobile devices tend to be computationally and energy-constrained, limiting their capability to provide synchronous interactions between the real environment and visual augmentations. Thus, in this work, we propose a collaborative inference method to run compute-intensive AR tasks, such as object recognition, on heterogeneous devices at the network edge. This approach would benefit both end-users and service providers by reducing end-to-end latency and operating costs, respectively.},
 selected={true},
-abbr={CoNEXT 2024},
-location = {Los Angeles, CA, USA}
+booktitle = {Proceedings of the CoNEXT on Student Workshop 2024},
+pages = {13–14},
+numpages = {2},
+keywords = {augmented reality, collaborative inference across heterogeneous devices, in-network computing, model partitioning, object recognition},
+location = {Los Angeles, CA, USA},
+series = {CoNEXT-SW '24}
 }
 
 @INPROCEEDINGS{9964949,
@@ -37,7 +63,6 @@ location = {Los Angeles, CA, USA}
   selected={true},
   abbr={CNSM 2022},
   doi={10.23919/CNSM55787.2022.9964949}}
-
 
 @INPROCEEDINGS{9647784,
   author={Matos, Guilherme and de Almeida, Leandro C. and Miguel Contreras, Luis and Verdi, Fábio Luciano},
@@ -60,7 +85,6 @@ location = {Los Angeles, CA, USA}
       eprint={2107.11966},
       archivePrefix={arXiv},
       primaryClass={cs.NI},
-      selected={true},
       abbr={ARXIV},
       url={https://arxiv.org/abs/2107.11966}, 
 }
